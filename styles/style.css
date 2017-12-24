@@ -13,6 +13,50 @@ body {
 
 h1{
   font-family: 'Rozha One', serif;
-  font-size: 56px;
+  font-size: 72px;
   color: white;
+}
+
+nav{
+  color: white;
+  float: right;
+  padding: 24px;
+}
+
+li{
+  text-decoration: none;
+  display: inline-block;
+}
+
+p{
+  font-size: 16px;
+}
+
+.header-title{
+  margin-top: 40vh;
+}
+
+.header-title p{
+  color: white;
+  font-weight: 400;
+}
+
+.header-social-links{
+  position: absolute;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  bottom: 40px;
+}
+
+.scroll-for-more{
+  position: absolute;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  bottom: 40px;
+}
+
+.header-social-links li{
+  padding-left: 50px;
 }
