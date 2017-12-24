@@ -165,4 +165,19 @@ a:hover{
 
 .color-block{
   background-color: #FFF1EA;
+  height: 700px;
+  top: 200px;
+  border: 100px solid white;
+}
+
+.first-block-copy{
+  margin-top: 50px;
+}
+
+.first-block-img{
+  height: 600px;
+  width: 100%;
+  background-image: url("../styles/assets/first-block-img.png");
+  position: relative;
+    top: -51px;
 }
