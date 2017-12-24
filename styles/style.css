@@ -122,18 +122,45 @@ a:hover{
   color: white;
 }
 
-.scroll-for-more p{
-  position: absolute;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
-  bottom: 40px;
-}
-
 .header-social-links li{
   padding-left: 50px;
 }
 
+/* SCROLL FOR MORE STUFF */
+
+.scroll-for-more {
+  position: absolute;
+  bottom: 35px;
+}
+
+
+.scroll-for-more p{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  display: inline-block;
+}
+
+.line{
+  height: 1px;
+  width: 150px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 16px;
+  position: relative;
+  top: -4px;
+}
+
+.dot{
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  left: -7px;
+
+}
 /* FIRST BLOCK STYLES */
 
 .color-block{
