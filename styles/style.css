@@ -37,14 +37,10 @@ li{
   display: inline-block;
   padding: 0px 24px;
   font-weight: 400;
+  line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
 }
 
-li:after{
-  height: 20px;
-  width: 20px;
-  background-color: white;
-}
 
 p{
   font-size: 16px;
@@ -66,13 +62,29 @@ hr{
   display: table-caption;
 }
 
+li:hover  hr{
+  animation: linegrow 0.3s;
+}
+
+@keyframes linegrow {
+  0% {
+    transform: scale(0.1);
+    opacity: 1;
+    transform-origin: top left;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    transform-origin: top left;
+  }
+}
+
 a{
   text-decoration: none;
   color: white;
 }
 
 a:hover{
-  text-decoration: underline;
   color: white;
 }
 
