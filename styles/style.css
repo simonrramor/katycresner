@@ -196,6 +196,10 @@ a:hover{
 
 /* Carousel stuff */
 
+.carousel-container{
+  margin-top: 80px;
+}
+
 .container {
   max-width: 400px;
   background-color: black;
