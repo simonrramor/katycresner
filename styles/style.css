@@ -198,6 +198,8 @@ a:hover{
 
 .carousel-container{
   margin-top: 80px;
+  clear: both;
+  overflow: hidden;
 }
 
 .container {
@@ -259,4 +261,14 @@ button {
   border-radius: 50px;
 }
 
+.contact-form-heading {
+  text-align: center;
+  font-family: 'Rozha One', serif;
+  margin-top: 70px;
+}
+ #full-name-input {
+   width: 200px;
+   position: relative;
+   left: 400px;
+ }
 /* carousel images */
