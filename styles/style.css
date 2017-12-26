@@ -207,47 +207,35 @@ a:hover{
   text-align: center;
   position: relative;
 }
+
 .container .carousel-img {
-  background-color: red;
+  /* background-color: red; */
   width: 100%;
   display: inline-block;
   display: none;
 }
-.container img {
+
+.one{
+  display: inline-block;
+  height: 400px;
+  width: 49%;
+  background-color: green;
+}
+
+.two{
+  display: inline-block;
+  height: 400px;
+  width: 49%;
+  background-color: yellow;
+}
+
+.one img {
   width: 49%;
   height: auto;
 }
 
-#img-1{
-  background-color: yellow;
-  height: 500px;
-  display: inline;
-}
-
-#img-2{
-  background-color: yellow;
-  height: 250px;
-  display: inline;
-}
-
-#img-3{
-  background-color: yellow;
-  height: 250px;
-  display: inline;
-}
-
-.one{
-  display: inline;
-  height: 100px;
-  width: 40%;
-  background-color: blue;
-}
-
-.two{
-  display: inline;
-  height: 100px;
-  width: 40%;
-  background-color: yellow;
+.two img {
+  width: 49%
 }
 
 button {
@@ -260,4 +248,28 @@ button {
 
 .prev {
   left: 50px;
+}
+
+/* carousel images */
+
+.img-new-1{
+  background-image: url("../styles/assets/first-block-img.png");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-new-2{
+  background-image: url("../styles/assets/first-block-img.png");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-new-3{
+  background-image: url("../styles/assets/first-block-img.png");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
