@@ -200,10 +200,14 @@ a:hover{
   margin-top: 80px;
 }
 
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
 
 .container .carousel-img {
   width: 100%;
-  margin: 0 auto;
+  display: inline-block;
   display: none;
 }
 
@@ -219,19 +223,18 @@ a:hover{
   width: 49%;
 }
 
-img{
-  vertical-align: none; 
-}
-
 .one img {
   width: 100%;
-  top: -20px;
-  height: 557px;
-  padding-right: 11px;
+    display: block;
+    position: relative;
+    top: -20px;
+    height: 557px;
+    padding-right: 11px;
 }
 
 .two img {
   width: 100%;
+  padding-top: 16px;
 }
 
 button {
