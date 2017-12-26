@@ -201,21 +201,53 @@ a:hover{
 }
 
 .container {
-  max-width: 400px;
-  background-color: black;
+  max-width: 80%;
+  background-color: red;
   margin: 0 auto;
   text-align: center;
   position: relative;
 }
-.container div {
-  background-color: white;
+.container .carousel-img {
+  background-color: red;
   width: 100%;
   display: inline-block;
   display: none;
 }
 .container img {
-  width: 100%;
+  width: 49%;
   height: auto;
+}
+
+#img-1{
+  background-color: yellow;
+  height: 500px;
+  display: inline;
+}
+
+#img-2{
+  background-color: yellow;
+  height: 250px;
+  display: inline;
+}
+
+#img-3{
+  background-color: yellow;
+  height: 250px;
+  display: inline;
+}
+
+.one{
+  display: inline;
+  height: 100px;
+  width: 40%;
+  background-color: blue;
+}
+
+.two{
+  display: inline;
+  height: 100px;
+  width: 40%;
+  background-color: yellow;
 }
 
 button {
@@ -223,9 +255,9 @@ button {
 }
 
 .next {
-  right: 5px;
+  right: 50px;
 }
 
 .prev {
-  left: 5px;
+  left: 50px;
 }

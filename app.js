@@ -1,9 +1,9 @@
 var currentIndex = 0,
-  items = $('.container div'),
+  items = $('.container .carousel-img'),
   itemAmt = items.length;
 
 function cycleItems() {
-  var item = $('.container div').eq(currentIndex);
+  var item = $('.container .carousel-img').eq(currentIndex);
   items.hide();
   item.css('display','inline-block');
 }
@@ -14,7 +14,7 @@ var autoSlide = setInterval(function() {
     currentIndex = 0;
   }
   cycleItems();
-}, 3000);
+}, 10000);
 
 $('.next').click(function() {
   clearInterval(autoSlide);
